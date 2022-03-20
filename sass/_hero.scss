@@ -1,0 +1,726 @@
+.main-text {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 130%;
+	/* or 26px */
+
+	letter-spacing: 0.03em;
+
+	color: $colo-dark;
+}
+.secondary-text {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.06em;
+
+	color: $colo-dark;
+}
+
+.main-box-text {
+	.main-text-box {
+		margin-left: $margin-left;
+		margin-right: $margin-right;
+		h1 {
+			font-family: Verdana;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 24px;
+			line-height: 136%;
+			/* or 27px */
+
+			letter-spacing: 0.03em;
+
+			color: $color-main-text;
+		}
+		p {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+			/* or 157% */
+
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.08em;
+
+			color: $color-secondary-text;
+		}
+		h3 {
+			font-family: Verdana;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 18px;
+			line-height: 136%;
+			/* or 27px */
+
+			letter-spacing: 0.03em;
+
+			color: $color-main-text;
+			span {
+				color: $color-orange;
+			}
+		}
+	}
+	.main-button {
+		align-items: center;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		a {
+			text-decoration: none;
+			:hover {
+				background-color: rgb(255, 162, 101);
+			}
+			button {
+				background-color: $color-orange;
+
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 12px;
+				line-height: 15px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: center;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+
+				color: $akcent-color;
+				border: none;
+				padding: 14px 2px 14px 5px;
+				width: 260px;
+				height: 48px;
+			}
+		}
+	}
+	.main-photo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 30px;
+		.photo {
+			width: 308px;
+			height: 250px;
+		}
+		.shadow {
+			position: absolute;
+			width: 100%;
+			height: 450px;
+			z-index: -1;
+		}
+	}
+	.pressentation {
+		margin-top: 77px;
+
+		// display: flex;
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 30px;
+			align-items: center;
+			justify-content: center;
+			padding: 0;
+			li {
+				img {
+					width: 80px;
+					height: 80px;
+				}
+				p {
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 186x;
+					line-height: 18px;
+					/* or 143% */
+
+					display: flex;
+					align-items: center;
+
+					letter-spacing: 0.08em;
+
+					color: $color-main-text;
+					width: 146px;
+					height: 60px;
+					margin: 0;
+				}
+			}
+		}
+	}
+	.problem {
+		position: relative;
+		width: 100%;
+		height: 693px;
+		.head-text {
+			// position: absolute;
+			width: 100%;
+			// z-index: -1;
+			// height: 340px;
+
+			background-color: $colo-dark;
+			h1 {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 800;
+				font-size: 28px;
+				line-height: 136%;
+				/* or 27px */
+
+				letter-spacing: 0.03em;
+
+				color: $akcent-color;
+				padding: 27px 20px 150px 20px;
+
+				span {
+					color: $color-orange;
+				}
+			}
+		}
+		.problem-list {
+			background-color: white;
+			width: 85%;
+			// height: 545px;
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			top: 30%;
+			left: 7.5%;
+
+			box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+			ul {
+				li {
+					p {
+						font-family: Verdana, Geneva, Tahoma, sans-serif;
+						font-style: normal;
+						font-weight: bold;
+						font-size: 19px;
+						line-height: 24px;
+						letter-spacing: 0.08em;
+
+						color: $color-orange;
+					}
+					h1 {
+						font-family: Verdana, Geneva, Tahoma, sans-serif;
+						font-style: normal;
+						font-weight: bold;
+						font-size: 16px;
+						line-height: 20px;
+						/* identical to box height, or 171% */
+
+						display: flex;
+						align-items: center;
+						letter-spacing: 0.08em;
+
+						color: $color-main-text;
+						margin-left: $margin-left;
+						margin-right: $margin-right;
+					}
+				}
+			}
+		}
+	}
+	.make {
+		margin-top: 250px;
+		h1 {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 130%;
+			/* or 26px */
+
+			text-align: center;
+			letter-spacing: 0.03em;
+
+			color: $colo-dark;
+		}
+		.make-box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.make-icon {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+		.make-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			width: 85%;
+			height: 320px;
+
+			background: #ffffff;
+			box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.1);
+			padding: 0 15px 0 15px;
+			// margin-top: 10px;
+			margin-bottom: 0;
+			&:hover {
+				background-color: $color-orange;
+				.make-main-text,
+				.make-secondary-text {
+					color: $akcent-color;
+				}
+
+				svg {
+					fill: $akcent-color;
+				}
+			}
+		}
+
+		.make-main-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 20px;
+			/* or 143% */
+
+			text-align: center;
+			letter-spacing: 0.08em;
+
+			color: $colo-dark;
+			margin-bottom: 32px;
+		}
+		.make-secondary-text {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 20px;
+			/* or 167% */
+
+			text-align: center;
+			letter-spacing: 0.08em;
+
+			color: $color-secondary-text;
+		}
+	}
+	.programm {
+		margin-top: 50px;
+		background-color: #111518;
+		h1 {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 130%;
+			/* or 26px */
+
+			text-align: center;
+			letter-spacing: 0.03em;
+
+			color: $akcent-color;
+
+			padding-top: 50px;
+		}
+		.programm-box {
+			display: flex;
+		}
+		ul {
+			display: flex;
+			flex-direction: column;
+
+			margin-bottom: 24px;
+
+			.main-text-sem {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 12px;
+				line-height: 164.9%;
+				/* or 20px */
+
+				display: flex;
+
+				flex-direction: column;
+				letter-spacing: 0.08em;
+
+				color: $color-orange;
+				margin-top: 5px;
+				padding-left: 30px;
+				margin-bottom: 5px;
+				margin-left: 25px;
+				border-left: 1px solid white;
+
+				span {
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 20px;
+					/* or 167% */
+
+					letter-spacing: 0.08em;
+
+					color: #b9b9b9;
+
+					opacity: 0.5;
+				}
+			}
+			img {
+				width: 12px;
+				height: 12px;
+
+				// margin-top: 23px;
+				// margin-left: 35px;
+			}
+		}
+		.semestr {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 28px;
+			/* identical to box height, or 200% */
+
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+
+			color: $akcent-color;
+			margin-left: 19px;
+
+			img {
+				padding-right: 12px;
+			}
+		}
+	}
+	.why-we {
+		background-color: #111518;
+		margin: 0;
+		padding-top: 15px;
+
+		// margin-left: $margin-left;
+		// margin-right: $margin-right;
+
+		h1 {
+			color: $akcent-color;
+			margin: 0;
+			padding-left: $margin-left;
+
+			border-bottom: 1px solid $color-orange;
+		}
+		ul {
+			margin-bottom: 39px;
+			li {
+				display: flex;
+				align-items: flex-start;
+				flex-direction: column;
+
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 164.9%;
+				/* identical to box height, or 23px */
+
+				letter-spacing: 0.08em;
+
+				color: $color-orange;
+				span {
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 700;
+					font-size: 14px;
+					line-height: 20px;
+					/* or 143% */
+
+					display: flex;
+					align-items: center;
+					letter-spacing: 0.08em;
+
+					color: $akcent-color;
+					margin-top: 15px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	.teacher {
+		margin-left: $margin-left;
+		h1 {
+			margin: 0px 0 20px 0;
+		}
+		.teacher-name {
+			padding: 0 20px 10px 0;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		img {
+			margin-bottom: 20px;
+			width: 243px;
+			height: 306px;
+		}
+		.teacher-item {
+			padding-left: 0;
+			li {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				margin-bottom: 20px;
+
+				img {
+					width: 17px;
+					height: 14px;
+					margin-right: 8.92px;
+				}
+				p {
+					margin: 0;
+					width: 260px;
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 14px;
+					line-height: 17px;
+					letter-spacing: 0.06em;
+
+					color: $colo-dark;
+				}
+			}
+		}
+		p {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 20px;
+			/* or 167% */
+
+			color: #b9b9b9;
+
+			width: 285px;
+		}
+		a {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 20px;
+			/* identical to box height, or 167% */
+
+			text-decoration-line: underline;
+
+			color: #ff6b09;
+		}
+	}
+	.garanty {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 40px;
+
+		.garanty-item {
+			width: 100%;
+			background-color: #b9b9b93d;
+			padding: 0;
+		}
+		li {
+			display: flex;
+			margin-top: 30px;
+			margin-left: $margin-left;
+			img {
+				width: 14.37px;
+				height: 20px;
+				margin-right: 20.37px;
+			}
+
+			p {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 20px;
+				/* or 167% */
+
+				color: #3d3d3d;
+				margin-top: 0;
+			}
+		}
+	}
+	.feedback {
+		// margin-left: $margin-left;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		// border: 2px solid red;
+
+		.feedback-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0;
+			.main-client-photo {
+				width: 150px;
+				height: 150px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}
+			.feedback-social-icon {
+				margin-bottom: 20px;
+			}
+			.feedback-client-name {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 800;
+				font-size: 18px;
+				line-height: 17px;
+				/* identical to box height */
+
+				text-align: center;
+				letter-spacing: 0.08em;
+
+				color: #ff6b09;
+				margin-bottom: 10px;
+			}
+			.stady-info {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 15px;
+				text-align: center;
+				letter-spacing: 0.08em;
+
+				color: #b9b9b9;
+			}
+			.feedback-client-text {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 20px;
+				/* or 167% */
+
+				text-align: center;
+
+				color: #3d3d3d;
+				padding: 10px 25px 0 25px;
+			}
+			.feedback-link {
+				color: $color-orange;
+			}
+		}
+		.secondary-clients-photo {
+			padding: 0;
+			display: flex;
+			align-items: center;
+			img {
+				margin: 0 8px 0 8px;
+			}
+			svg {
+				margin-left: -10px;
+				margin-right: -10px;
+			}
+		}
+	}
+	.form {
+		width: 100%;
+		height: 507px;
+		background-image: url(../img/background_form.png);
+		background-color: #111518;
+		h2 {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 14px;
+			line-height: 136%;
+			/* or 19px */
+
+			text-align: center;
+			letter-spacing: 0.03em;
+
+			color: #ffffff;
+			padding: 50px 20px 0 20px;
+			span {
+				color: $color-orange;
+			}
+		}
+		h3 {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 12px;
+			line-height: 15px;
+			text-align: center;
+			letter-spacing: 0.08em;
+
+			color: #ffffff;
+			padding: 30px 20px 30px 20px;
+			span {
+				color: $color-orange;
+			}
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			input {
+				width: 280px;
+				height: 48px;
+				border: 1px solid #ffffff;
+
+				margin-bottom: 20px;
+				background: rgba(0, 0, 0, 0);
+
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 17px;
+					/* identical to box height */
+
+					padding-left: 28px;
+
+					color: #ffffff;
+					
+				&::placeholder {
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 14px;
+					line-height: 17px;
+					/* identical to box height */
+
+					display: flex;
+					align-items: center;
+					letter-spacing: 0.08em;
+
+					color: #ffffff;
+					// padding-left: 28px;
+				}
+			}
+			a{
+				text-decoration: none;
+				.form-buttom {
+					width: 260px;
+					height: 48px;
+					background: $color-orange;
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 700;
+					font-size: 11px;
+					line-height: 15px;
+					display: flex;
+					align-items: center;
+					text-align: center;
+					letter-spacing: 0.08em;
+					text-transform: uppercase;
+	
+					color: #ffffff;
+				}
+			}
+			
+		}
+	}
+}

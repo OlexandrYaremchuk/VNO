@@ -1,0 +1,113 @@
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30.5px;
+	margin-left: $margin-left;
+	margin-right: $margin-right;
+
+	&:hover .menu-open {
+		transform: translateX(0);
+	}
+
+	.logo {
+		width: 80px;
+		height: 28.53px;
+	}
+	.menu {
+		&:hover .menu-open {
+			transform: translateX(0);
+		}
+		a {
+			width: 20.5px;
+			height: 12px;
+		}
+	}
+	.menu-open {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(17, 21, 24, 0.95);
+		transform: translateX(-100%);
+		transition: transform 250ms ease;
+		.head-menu {
+			ul {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 37px 20px 50px 20px;
+				.logo-white {
+					width: 80px;
+					height: 28.53px;
+				}
+				.close {
+					&:hover .menu-open {
+						transform: translateX(-100%);
+						transition: transform 250ms ease;
+					}
+					.button-close {
+						width: 20.5px;
+						height: 20.5px;
+						background-color: rgba(0, 0, 0, 0);
+						border: none;
+						
+					}
+				}
+			}
+		}
+		.head-menu-item {
+			padding: 0 40px 50px 20px;
+			li {
+				a {
+					font-family: Verdana, Geneva, Tahoma, sans-serif;
+					font-style: normal;
+					font-weight: 800;
+					font-size: 20px;
+					line-height: 180%;
+					/* or 36px */
+
+					letter-spacing: 0.03em;
+
+					color: #ffffff;
+					text-decoration: none;
+					&:active,
+					&:focus {
+						color: $color-orange;
+					}
+				}
+			}
+		}
+		.menu-buttom-box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 400px;
+			.menu-open-buttom {
+				width: 260px;
+				height: 48px;
+
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 12px;
+				line-height: 15px;
+
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+
+				color: #ff6b09;
+				background: rgba(17, 21, 24, 0);
+				/* shsw */
+
+				box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+				border: 2px solid #ff6b09;
+				&:active {
+					color: #ffffff;
+					background: #ff6b09;
+				}
+			}
+		}
+	}
+}

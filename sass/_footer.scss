@@ -1,0 +1,60 @@
+.footer {
+	text-align: center;
+	.logo-icon {
+		margin-top: 30px;
+		width: 84.12px;
+		height: 30px;
+	}
+
+	.phone {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 21px;
+
+		img {
+			width: 20px;
+			height: 19.21px;
+		}
+
+		a {
+			text-decoration: none;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 17px;
+			/* identical to box height */
+
+			letter-spacing: 0.08em;
+			padding-left: 10px;
+			color: #111518;
+		}
+	}
+
+	.prava {
+		display: flex;
+		justify-content: center;
+
+		color: #b9b9b9;
+		background-color: #111518;
+		p {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 28px;
+			/* identical to box height, or 200% */
+			text-align: center;
+
+			// padding: 21px 0px 21px 0px;
+		}
+	}
+	.instagram-icon {
+		margin: 30px 0 30px 0;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
